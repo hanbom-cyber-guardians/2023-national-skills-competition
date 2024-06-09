@@ -2,5 +2,5 @@
 
 ## 참고링크
 
-[ubuntu documentation](https://help.ubuntu.com/community/22.xx/Active_Directory)
-[Youtube full guide](https://www.youtube.com/watch?v=iX5q4mIxgxA)
+* [ubuntu documentation](https://help.ubuntu.com/community/22.xx/Active_Directory)
+* [Youtube full guide](https://www.youtube.com/watch?v=iX5q4mIxgxA)
