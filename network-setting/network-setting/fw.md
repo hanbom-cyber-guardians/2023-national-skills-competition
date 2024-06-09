@@ -19,7 +19,7 @@ sudo vim /etc/netplan/00-installer-config.yaml
 			addresses: [201.10.10.1/24]
 :wq!
 sudo netplan apply
-	```
+```
 
 ## DHCP relay
 ```shell
