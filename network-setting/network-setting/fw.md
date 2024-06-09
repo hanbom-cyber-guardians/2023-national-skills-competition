@@ -1,4 +1,4 @@
-[기본구성](default-setting)
+[기본구성](../emage/default-setting)
 
 ## 네트워크 구성
 ```shell

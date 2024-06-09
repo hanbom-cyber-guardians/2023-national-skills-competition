@@ -1,4 +1,4 @@
-[기본 구성](default-setting.md)
+[기본 구성](../emage/default-setting.md)
 
 ## 네트워크 구성
 
