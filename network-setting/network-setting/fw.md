@@ -35,3 +35,22 @@ sudo systemctl status isc-dhcp-relay
 
 [dhcp server](dlp.md)
 
+## NAT
+```shell
+sudo iptables -A FORWARD -i eth0 -s 10.10.10.0/23 -j ACCEPT
+sudo iptables -A FORWARD -i eth1 -s 172.20.200.64/26 -j ACCEPT
+sudo iptables -t nat -A POSTROUTING -o eth2 -j MASQUERADE
+sudo iptables-save > /etc/iptables.conf
+
+sudo vim /etc/rc.local
+#!/bin/sh -e
+
+iptables-restore < /etc/iptables.conf
+
+exit 0
+:wq
+chmod 777 /etc/rc.local
+
+sudo vim /etc/ufw/sysctl.conf 
+net.ipv4.ip_forward=1
+```
