@@ -4,6 +4,7 @@
 2. [Ad 및 윈도우 서버 세팅](window-server-setting.md)
 3. 네트워크 세팅 <br>
   3-1. [sales-01 세팅](./network-setting/sales-01.md) <br>
+  3-2. [mgt-01 세팅](./network-setting/mgt-01.md) <br>
   3-2. [fw 세팅](./network-setting/fw.md) <br>
   3-3. [dlp 세팅](./network-setting/dlp.md) <br>
   3-4. [ns 세팅](./network-setting/ns.md) <br>
